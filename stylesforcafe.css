@@ -1,0 +1,309 @@
+body {
+    background-color: black;
+}
+
+#Naming {
+    margin-left: 50px;
+    position: absolute;
+    width: 130px;
+    height: 57px;
+    left: 120px;
+    top: 32px;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+
+    text-align: center;
+    vertical-align: -32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menu,
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+    position: absolute;
+    width: 48px;
+    height: 28px;
+    top: 46px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+    letter-spacing: 0.04em;
+    padding: 32px;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.menu {
+    left: 756px;
+}
+
+.menu:visited {
+    color: aquamarine;
+}
+
+.menu1 {
+    left: 836px;
+}
+
+.menu:active {
+    color: beige;
+}
+
+.menu2 {
+    left: 915px;
+}
+
+.menu3 {
+    left: 1034px;
+}
+
+.menu4 {
+    left: 1101px;
+}
+
+.registration,
+.booktable {
+    position: absolute;
+    width: 93px;
+    height: 28px;
+    top: 46px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.registration {
+    left: 1436px;
+    border-left: #FFFFFF;
+}
+
+.registration:hover {
+    color: cadetblue;
+}
+
+.booktable {
+    left: 1707px;
+    right: 120px;
+}
+
+.booktable:hover {
+    color: cadetblue;
+}
+
+h2 {
+    position: absolute;
+    width: 231px;
+    height: 30px;
+    color: white;
+    font-family: 'Cormorant Upright';
+    top: 296.5px;
+    left: 310px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+}
+
+.vector {
+    position: absolute;
+    top: 360px;
+    left: 310px;
+}
+
+.tittle1 {
+    position: absolute;
+    top: 300.5px;
+    left: 310px;
+    right: 1157px;
+    bottom: 11507.5px;
+    width: 453px;
+    height: 234px;
+    font-family: 'Comorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+    text-transform: capitalize;
+}
+
+.page1,
+.page2text1,
+.page2text2 {
+    position: absolute;
+    width: 453px;
+    height: 84px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+
+.page1 {
+    top: 750px;
+    left: 310px;
+}
+
+.page2text1 {
+    position: absolute;
+    top: 1830px;
+    left: 370px;
+}
+
+.page2text2 {
+    position: absolute;
+    top: 1930px;
+    left: 1092px;
+}
+
+#button1 {
+    color: #DCCA87;
+    position: absolute;
+    top: 900px;
+    left: 310px;
+    ;
+}
+
+#button2 {
+    color: #DCCA87;
+    position: absolute;
+    top: 1960px;
+    left: 665px;
+    ;
+}
+
+#button3 {
+    color: #DCCA87;
+    position: absolute;
+    top: 2060px;
+    left: 1092px;
+    ;
+}
+
+.hashtag1,
+.hashtag2 {
+    position: absolute;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    font-family: 'Open Sans';
+    width: 43px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+}
+
+.hashtag1 {
+    top: 457px;
+    left: 0px;
+}
+
+.hashtag2 {
+    top: 575px;
+    left: 0px;
+}
+
+.dish {
+    position: absolute;
+    width: 800px;
+    height: 900px;
+    left: 950px;
+    top: 228px;
+}
+
+.G {
+    position: absolute;
+    width: 391px;
+    height: 415px;
+    left: 759px;
+    top: 1700px;
+}
+
+.knife {
+    position: absolute;
+    left: 920px;
+    top: 1564px;
+}
+
+.Aboutus,
+.Ourhistory {
+    position: absolute;
+    top: 1683px;
+
+    width: 252px;
+    height: 83px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    left: 581px;
+    left: 581px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+
+    color: #DCCA87;
+}
+
+.Aboutus {
+    left: 581px;
+}
+
+.Ourhistory {
+    left:1091px;
+}
+
+#contactus.footer,
+#workinghours.footer {
+    top: 11630px;
+    width: 150px;
+    height: 42px;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+
+    color: #F5EFDB;
+
+}
